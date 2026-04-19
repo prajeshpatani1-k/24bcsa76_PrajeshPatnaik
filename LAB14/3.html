@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Q3</title>
+        <script lang="JavaScript">
+            
+
+            function red()
+            {
+                let result=confirm("Do you want to change color to red?");
+                if(result)
+                {
+                    document.getElementById("d1").style.backgroundColor="red"
+                }
+                
+            }
+            function green()
+            {
+                let result=confirm("Do you want to change color to green?");
+                if(result)
+                {
+                    document.getElementById("d1").style.backgroundColor="green"
+                }
+            }
+            function blue()
+            {
+                let result=confirm("Do you want to change color to blue?");
+                if(result)
+                {
+                    document.getElementById("d1").style.backgroundColor="blue"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="d1">
+            Hello Hello Hello Hello Hello Hello Hello 
+            Hello Hello Hello Hello Hello Hello Hello 
+            Hello Hello Hello Hello Hello Hello Hello 
+            Hello Hello Hello Hello Hello Hello Hello 
+            Hello Hello Hello Hello Hello Hello Hello 
+        </div>
+        <br>
+        
+        <input type="button" value="Red" onclick="red()">
+        <input type="button" value="Green" onclick="green()">
+        <input type="button" value="Blue" onclick="blue()">
+    </body>
+</html>
