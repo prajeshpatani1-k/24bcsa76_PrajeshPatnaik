@@ -1,0 +1,56 @@
+.cont
+{
+    display: flex;
+    gap: 150px;
+}
+.cont2
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.login
+{
+    display: flex;
+    align-self: auto;
+    flex-direction: column;
+    gap:20px;
+}
+.card
+{
+    justify-items: center;
+    width: 350px;
+    padding:10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(190, 190, 203);
+}
+#login
+{
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgba(51, 249, 110);
+    border-radius: 10px;
+    border:none;
+}
+#user
+{
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    padding-left: 5px;
+    border-radius: 7px;
+    border:none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0,0.2);
+}
+#pass
+{
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    padding-left: 5px;
+    border-radius: 7px;
+    border:none;
+    box-shadow: 0px 5px 15px rgba(0, 0,0, 0.2);
+}
+    
