@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f4f4f4;
+}
+
+.container{
+  display:flex;
+  justify-content:center; 
+  gap:20px;
+  padding:40px;
+}
+
+.card{
+  width:220px;
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+  width:100%;
+  border-radius:8px;
+}
+
+.price{
+  margin: 8px;
+  font-weight:bold;
+}
+
+.card button{
+  padding:8px 12px;
+  border:none;
+  background:black;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
