@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Q4</title>
+</head>
+<body>
+
+    <h2>Counter</h2>
+
+    <button onclick="decrease()">-</button>
+    <input type="number" id="counter" value="" >
+    <button onclick="increase()">+</button>
+
+    <script>
+    function increase() {
+        let value = parseInt(document.getElementById("counter").value);
+        document.getElementById("counter").value = value + 1;
+    }
+
+    function decrease() {
+        let value = parseInt(document.getElementById("counter").value);
+        if (value > 0) {
+            document.getElementById("counter").value = value - 1;
+        }
+    }
+    </script>
+
+</body>
+</html>
